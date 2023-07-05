@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nit_folio/static/css/main.073c9b0a.css",
-    "main.js": "/nit_folio/static/js/main.c95b1f05.js",
+    "main.js": "/nit_folio/static/js/main.017af56b.js",
     "static/js/787.da03a188.chunk.js": "/nit_folio/static/js/787.da03a188.chunk.js",
     "index.html": "/nit_folio/index.html",
     "main.073c9b0a.css.map": "/nit_folio/static/css/main.073c9b0a.css.map",
-    "main.c95b1f05.js.map": "/nit_folio/static/js/main.c95b1f05.js.map",
+    "main.017af56b.js.map": "/nit_folio/static/js/main.017af56b.js.map",
     "787.da03a188.chunk.js.map": "/nit_folio/static/js/787.da03a188.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.c95b1f05.js"
+    "static/js/main.017af56b.js"
   ]
 }
