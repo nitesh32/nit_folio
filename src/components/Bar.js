@@ -5,7 +5,7 @@ export default function bar() {
     <div id="Navbar">
       <div id="naming">
         <strong>
-          <b> &lt;/> Nitesh Sharma</b>
+          <b> &lt;/&gt; Nitesh Sharma</b>
         </strong>
       </div>
       <div id="navigation">
