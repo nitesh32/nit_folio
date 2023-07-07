@@ -1,15 +1,15 @@
-import './App.css';
+import "./App.css";
 import Bar from "./components/Bar";
-import Particals from "./components/Particals";
+import React from "react";
+import Particle from "./components/Particle";
+import Footer from "./components/Footer";
 
 function App() {
-  
   return (
     <>
-
-    <Bar/>
-    <Particals/>
-    
+      <Bar></Bar>
+      <Particle></Particle>
+      <Footer></Footer>
     </>
   );
 }
