@@ -2,14 +2,15 @@ import "./App.css";
 import Bar from "./components/Bar";
 import React from "react";
 import Particle from "./components/Particle";
-import Footer from "./components/Footer";
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <>
       <Bar></Bar>
+      <Layout></Layout>
       <Particle></Particle>
-      <Footer></Footer>
+      
     </>
   );
 }

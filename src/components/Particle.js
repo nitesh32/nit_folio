@@ -18,7 +18,6 @@ export default function Particle() {
   }, []);
 
   return (
-
       <Particles props
         id="tsparticles"
         init={particlesInit}
@@ -26,7 +25,7 @@ export default function Particle() {
         options={{
           background: {
             color: {
-              value: "#ffffff",
+              value: "#040404",
             },
           },
           fpsLimit: 120,
@@ -54,10 +53,10 @@ export default function Particle() {
           },
           particles: {
             color: {
-              value: "#000",
+              value: "#53CBFB",
             },
             links: {
-              color: "#000",
+              color: "#53CBFB",
               distance: 150,
               enable: true,
               opacity: 0.5,
