@@ -6,7 +6,7 @@ import React from "react";
 
 export default function Particle() {
   const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
+    // console.log(engine);
     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
     // starting from v2 you can add only the features you need reducing the bundle size
@@ -14,7 +14,7 @@ export default function Particle() {
   }, []);
 
   const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
+    // await console.log(container);
   }, []);
 
   return (
@@ -63,14 +63,14 @@ export default function Particle() {
               width: 1,
             },
             collisions: {
-              enable: true,
+              enable: false,
             },
             move: {
               direction: "none",
               enable: true,
-              outModes: {
-                default: "bounce",
-              },
+              // outModes: {
+              //   default: "bounce",
+              // },
               random: false,
               speed: 3,
               straight: false,
@@ -83,7 +83,7 @@ export default function Particle() {
               value: 80,
             },
             opacity: {
-              value: 0.5,
+              value: 0.8,
             },
             shape: {
               type: "circle",

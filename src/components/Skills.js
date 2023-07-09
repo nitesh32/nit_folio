@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Skills() {
   return (
-    <div class="div-all">Skills</div>
+    <div className="div-all" id="skills">Skills</div>
   )
 }
