@@ -37,6 +37,32 @@ export default function bar() {
     });
   };
   scroll_func();
+  var flag=0;
+  const handledots=()=>{
+      const one = document.getElementById("one")
+      const two = document.getElementById("two")
+      const three = document.getElementById("three")
+      if(flag===0){
+        one.style.transform ="rotate(45deg)";
+        one.style.position="absolute";
+        two.style.display ="none";
+        three.style.transform ="rotate(-45deg)";
+        three.style.position="absolute";
+        one.style.transition=0.5+"s";
+        two.style.transition=0.5+"s";
+        three.style.transition=0.5+"s";
+        flag=1;
+      }
+      else{
+        one.style.transform ="rotate(0deg)";
+        one.style.position="static";
+        two.style.display ="block";
+        three.style.transform ="rotate(0deg)";
+        three.style.position="static";
+        flag=0;
+      }
+  }
+
   return (
     <>
 
@@ -46,7 +72,7 @@ export default function bar() {
           <b> &lt;/&gt; Nitesh Sharma</b>
         </strong>
       </div>
-      <div id="dots" className="" >
+      <div id="dots" className="" onClick={handledots}>
       <div id="one"></div>
       <div id="two"></div>
       <div id="three"></div>
