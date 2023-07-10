@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Nav_ul() {
     
-    const gotopage = (val) => {
+    const gotopaged = (val) => {
         const element = document.getElementById(val);
         if (element) {
           element.scrollIntoView({ behavior: "smooth" });
@@ -44,7 +44,7 @@ export default function Nav_ul() {
       type="button"
       className="nav-btn nav-btn-active"
       onClick={() => {
-        gotopage("home");
+        gotopaged("home");
       }}
       id="home-btn"
     >
@@ -54,7 +54,7 @@ export default function Nav_ul() {
       type="button"
       className="nav-btn"
       onClick={() => {
-        gotopage("about");
+        gotopaged("about");
       }}
       id="about-btn"
     >
@@ -64,7 +64,7 @@ export default function Nav_ul() {
       type="button"
       className="nav-btn"
       onClick={() => {
-        gotopage("skills");
+        gotopaged("skills");
       }}
       id="skills-btn"
     >
@@ -74,7 +74,7 @@ export default function Nav_ul() {
       type="button"
       className="nav-btn"
       onClick={() => {
-        gotopage("education");
+        gotopaged("education");
       }}
       id="education-btn"
     >
@@ -84,7 +84,7 @@ export default function Nav_ul() {
       type="button"
       className="nav-btn"
       onClick={() => {
-        gotopage("projects");
+        gotopaged("projects");
       }}
       id="projects-btn"
     >
@@ -94,7 +94,7 @@ export default function Nav_ul() {
       type="button"
       className="nav-btn"
       onClick={() => {
-        gotopage("contact");
+        gotopaged("contact");
       }}
       id="contact-btn"
     >
