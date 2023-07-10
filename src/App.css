@@ -4,6 +4,9 @@
   /* --bl:white;
   --blu:grey; */
 }
+::selection{
+  color: white;
+}
 body {
   height: 3000px !important;
   width: 100vw !important;
@@ -59,13 +62,14 @@ body {
   align-items: center;
   justify-content: space-around;
 }
-.nav-btn{
+.nav-btn , .nav-btns{
   border: none;
   outline: none;
   color: var(--blu);
   background-color: var(--bl);
   /* transition: 0.5s; */
 }
+
 .nav-btn-active{
   border-bottom: 2px solid var(--blu);
   font-weight: bold;
@@ -80,6 +84,7 @@ body {
   justify-content: space-around;
   flex-direction: column;
   margin-right: 30px;
+  cursor: pointer;
 }
 #one{
   height: 5px;
@@ -102,6 +107,46 @@ body {
   display: block;
   position: static;
 }
+#vertical_nav{
+  height: 100vh;
+  width: 300px;
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  background-color: var(--bl);
+  display: none;
+  /* border: 1px solid white; */
+  transition: 0.5s ease-in-out;
+  right:-600px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+#inner-ver_nav{
+  height: 90%;
+  width: 90%;
+  border: 3px solid var(--blu);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: 54% 0;
+}
+#inner-ver_nav>ul{
+  display: flex;
+  width: 40%;
+  height: 60%;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 0px;
+  margin:0px;
+}
+
+
+
+
+
+
 
 @media only screen and (max-width: 700px) {
   #naming{
@@ -113,12 +158,21 @@ body {
   #dots{
     display: flex;
   }
+  #vertical_nav{
+    display: flex;
+  }
+
+
 }
+
 @media only screen and (max-width: 800px) {
   #navigation>ul{
     width: 80%;
   }
+  
 }
+
+
 /* Home component */
 #Layout {
   height: 600vh;
