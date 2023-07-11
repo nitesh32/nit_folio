@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nit_folio/static/css/main.9edc6017.css",
-    "main.js": "/nit_folio/static/js/main.f3d1282f.js",
+    "main.css": "/nit_folio/static/css/main.13a6ed93.css",
+    "main.js": "/nit_folio/static/js/main.f27f7b13.js",
     "static/js/787.da03a188.chunk.js": "/nit_folio/static/js/787.da03a188.chunk.js",
-    "static/media/img_2.jpeg": "/nit_folio/static/media/img_2.dd5b1f8e047da0790595.jpeg",
+    "static/media/img_5.jpeg": "/nit_folio/static/media/img_5.1b4586e760500bf4bf0d.jpeg",
     "index.html": "/nit_folio/index.html",
-    "main.9edc6017.css.map": "/nit_folio/static/css/main.9edc6017.css.map",
-    "main.f3d1282f.js.map": "/nit_folio/static/js/main.f3d1282f.js.map",
+    "main.13a6ed93.css.map": "/nit_folio/static/css/main.13a6ed93.css.map",
+    "main.f27f7b13.js.map": "/nit_folio/static/js/main.f27f7b13.js.map",
     "787.da03a188.chunk.js.map": "/nit_folio/static/js/787.da03a188.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9edc6017.css",
-    "static/js/main.f3d1282f.js"
+    "static/css/main.13a6ed93.css",
+    "static/js/main.f27f7b13.js"
   ]
 }
