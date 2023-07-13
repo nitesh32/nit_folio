@@ -49,42 +49,42 @@ export default function Home() {
             gotopageabout("about");
           }}
         >
-          <h5 style={{margin:0 ,fontWeight:800}}>About Me</h5>
+          <h5 style={{margin:0 ,fontWeight:800}}>About Me <Icon.ArrowDownRightCircle /></h5>
         </div>
 
         <div id="connect_me">
           <a href="https://github.com/nitesh32" target="_blank" rel="noreferrer">
-          <div class="icon_outer">
-            <Icon.Github class="bootstrap_icons" />
+          <div className="icon_outer">
+            <Icon.Github className="bootstrap_icons" />
           </div>
           </a>
           <a href="https://www.linkedin.com/in/nitesh-sharma-3429541bb/" target="_blank" rel="noreferrer">
-          <div class="icon_outer">
-          <Icon.Linkedin class="bootstrap_icons"/>
+          <div className="icon_outer">
+          <Icon.Linkedin className="bootstrap_icons"/>
           </div>
           </a>
 
           <a href="https://twitter.com/NiteshS1123" target="_blank" rel="noreferrer">
-          <div class="icon_outer">
-          <Icon.Twitter class="bootstrap_icons"/>
+          <div className="icon_outer">
+          <Icon.Twitter className="bootstrap_icons"/>
           </div>
           </a>
 
           <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" rel="noreferrer">
-          <div class="icon_outer">
-          <Icon.EnvelopeCheckFill class="bootstrap_icons"/>
+          <div className="icon_outer">
+          <Icon.EnvelopeCheckFill className="bootstrap_icons"/>
           </div>
           </a>
 
           <a href="https://auth.geeksforgeeks.org/user/nit8339" target="_blank" rel="noreferrer">
-          <div class="icon_outer">
-          <Icon.CodeSlash class="bootstrap_icons"/>
+          <div className="icon_outer">
+          <Icon.CodeSlash className="bootstrap_icons"/>
           </div>
           </a>
 
           <a href="https://codeforces.com/profile/NIT2213" target="_blank" rel="noreferrer">
-          <div class="icon_outer">
-          <Icon.BracesAsterisk class="bootstrap_icons"/>
+          <div className="icon_outer">
+          <Icon.BracesAsterisk className="bootstrap_icons"/>
           </div>
           </a>
            
@@ -92,7 +92,7 @@ export default function Home() {
 
       </div>
 
-      <div className="container">
+      <div className="container"  >
         <div className="box">
           <div className="spin-container">
             <div className="shape">

@@ -31,7 +31,7 @@ export default function Nav_ul() {
               document
                 .getElementById(elements[i].id + "-btn")
                 .classList.add("nav-btn-active");
-              // console.log(element_to_change);
+
             }
           }
         });
