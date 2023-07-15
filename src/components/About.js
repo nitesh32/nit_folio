@@ -1,8 +1,17 @@
 import React from "react";
 import * as Icon from "react-bootstrap-icons";
-
+import ScrollReveal from "scrollreveal";
 
 export default function About() {
+
+  const srtop = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 1000,
+    reset: true
+  });
+
+  srtop.reveal('.real_about ', { delay: 300 });
   return (
     <div className="div-all" id="about">
       <div class="naming_of_div">
@@ -45,12 +54,18 @@ export default function About() {
             </div>
           </div>
 
-          <div  id="about-btnt">
-            <a href="https://drive.google.com/file/d/1sz7QWupVOI9MGc8zQ2ZeCVWbZErq8Kgn/view?usp=sharing" class="btn" target="_blank" rel="noreferrer"><span id="resume_span">Resume <Icon.ArrowRightCircle /></span>
-            
+          <div id="about-btnt">
+            <a
+              href="https://drive.google.com/file/d/1sz7QWupVOI9MGc8zQ2ZeCVWbZErq8Kgn/view?usp=sharing"
+              class="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span id="resume_span">
+                Resume <Icon.ArrowRightCircle />
+              </span>
             </a>
           </div>
-
         </div>
       </div>
     </div>

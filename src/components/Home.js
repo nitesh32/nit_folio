@@ -2,6 +2,8 @@ import React from "react";
 // import { useRef, useEffect } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import * as Icon from 'react-bootstrap-icons';
+import ScrollReveal from "scrollreveal";
+
 
 export default function Home() {
 
@@ -11,6 +13,18 @@ export default function Home() {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  const srtop = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 1000,
+    reset: true
+  });
+
+  srtop.reveal('.container ', { delay: 300 });
+  srtop.reveal('#typewriter', { delay: 300 });
+  srtop.reveal('#about-btnt ', { delay: 300 });
+  srtop.reveal('#connect_me ', { delay: 300 });
 
   return (
     <div className="div-all home_property" id="home">
@@ -91,7 +105,7 @@ export default function Home() {
         </div>
 
       </div>
-
+      
       <div className="container"  >
         <div className="box">
           <div className="spin-container">
