@@ -22,9 +22,7 @@ export default function Home() {
   });
 
   srtop.reveal('.container ', { delay: 300 });
-  srtop.reveal('#typewriter', { delay: 300 });
-  srtop.reveal('#about-btnt ', { delay: 300 });
-  srtop.reveal('#connect_me ', { delay: 300 });
+  // srtop.reveal('#typewriter', { delay: 300 });
 
   return (
     <div className="div-all home_property" id="home">

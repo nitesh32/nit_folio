@@ -3,7 +3,7 @@ import * as Icon from "react-bootstrap-icons";
 
 export default function Contact() {
   return (
-    <div className="div-all" id="contact"><div class="naming_of_div">
+    <div className="div-all" id="contact"><div className="naming_of_div">
     <Icon.Headset />
     &nbsp;Get in&nbsp;<strong>Touch</strong>
   </div>

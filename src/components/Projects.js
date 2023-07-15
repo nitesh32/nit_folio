@@ -4,7 +4,7 @@ import * as Icon from "react-bootstrap-icons";
 export default function Projects() {
   return (
     <div className="div-all" id="projects">
-      <div class="naming_of_div">
+      <div className="naming_of_div">
         <Icon.CodeSlash />
         &nbsp;My&nbsp;<strong>Projects</strong>
       </div>
