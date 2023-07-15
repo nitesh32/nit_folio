@@ -21,7 +21,8 @@ export default function Home() {
     reset: true
   });
 
-  srtop.reveal('.container ', { delay: 300 });
+  srtop.reveal('.container ');
+  srtop.reveal('#typewriter');
   // srtop.reveal('#typewriter', { delay: 300 });
 
   return (
