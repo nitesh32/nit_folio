@@ -4,7 +4,9 @@ import React from "react";
 import Particle from "./components/Particle";
 import Layout from "./components/Layout";
 
+
 function App() {
+  
   return (
     <>
       <Bar></Bar>

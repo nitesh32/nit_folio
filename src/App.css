@@ -285,9 +285,10 @@ body {
   overflow: hidden;
   margin: 0px;
   padding: 0px;
+  transform-style: preserve-3d;
+  transform: translateZ(20px)
   /* border: 1px dashed rgba(255,255,255,0.4); */
 }
-
 
 .box {
   width: 60vmin;
@@ -374,8 +375,8 @@ body {
    justify-content: space-around;
 }
 #about_image{
-  height: 70%;
-  width: 20%;
+  height: 70vh;
+  width: 20vw;
   border-radius: 20px;
   background-image: url("./assets/image/img_1.jpeg");
   background-size: cover;
@@ -444,27 +445,32 @@ body {
   flex-direction: column;
 }
 #main_skills{
-  height: 90%;
-  width: 90%;
+  height: 80%;
+  width: 80%;
   background-color: aliceblue;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   border-radius: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .bar{
     border-radius: 1rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     background: white;
-    transition: 0.2s;
     margin: 15px;
     width: 15%;
-    height:25%;
+    max-height: 25%;
+    cursor: pointer;
+}
+.bar:hover{
+  padding: 10px;
 }
 .bar img{
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
 }
 .info{
   display: flex;
@@ -521,8 +527,87 @@ body {
 }
 #main_projects{
   height: 90%;
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.card{
+  width: 25vw;
+  height: 25vh;
+  margin: 10px;
+  position: relative;
+ 
+}
+.card img{
+  height: 100%;
   width: 100%;
 }
+.about_project{
+  position: absolute;
+  background-color: var(--blu);
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.about_project>span{
+  width: 100%;
+  margin: 0px;
+  /* background-color:var(--bl); */
+  /* color: var(--blu); */
+  font-size: 1.5vw;
+  font-weight: bold;
+
+}
+.about_project_desc{
+   display: none;
+}
+.about_project_desc_active{
+  display: block;
+}
+.buttons_project{
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.project_link_btn{
+  height: 40px;
+  width: 40%;
+  margin: 0px;
+  background-color: transparent;
+  font-size: 0.8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3vw;
+  font-weight: bold;
+  
+
+}
+.project_link_btn a{
+  text-decoration: none;
+  border-radius: 20px 5px 20px 5px;
+  border: 2px solid var(--bl);
+  color: var(--bl);
+  padding: 5px;
+  transition: 0.2s;
+}
+.project_link_btn a:hover{
+  padding: 7px;
+  box-shadow: 0px 0px 25px 1px var(--bl);
+}
+
 
 /* contacts css */
 

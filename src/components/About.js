@@ -1,10 +1,8 @@
 import React from "react";
 import * as Icon from "react-bootstrap-icons";
-
+import Tilt from "react-parallax-tilt";
 
 export default function About() {
-
-  
   return (
     <div className="div-all" id="about">
       <div className="naming_of_div">
@@ -12,14 +10,27 @@ export default function About() {
         &nbsp;About&nbsp;<strong>Me</strong>
       </div>
       <div className="about_content">
-        <div id="about_image" className="animated fadeInDown"></div>
+         <Tilt>
+          <div
+            id="about_image"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          ></div>
+          </Tilt>
+        
         <div className="real_about">
           <h3 id="about_name">
             I'm <span>Nitesh Sharma</span>
           </h3>
           <span className="span_bolder">Full Stack Developer</span>
 
-          <p id="para_about">
+          <p
+            id="para_about"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             I am a Full-Stack developer currently in Chandigarh, Hariyana. I am
             a Computer Science Engineering under graduate from Chandigarh
             University. I am very passionate about improving my coding skills
@@ -28,7 +39,12 @@ export default function About() {
             skills. I have solved 330+ problems on Codeforces.
           </p>
 
-          <div className="age_number">
+          <div
+            className="age_number"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <div className="a_age_number">
               <p>
                 <span> Age: </span> 21
@@ -47,7 +63,12 @@ export default function About() {
             </div>
           </div>
 
-          <div id="about-btnt">
+          <div
+            id="about-btnt"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <a
               href="https://drive.google.com/file/d/1sz7QWupVOI9MGc8zQ2ZeCVWbZErq8Kgn/view?usp=sharing"
               className="btn"
