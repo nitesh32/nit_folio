@@ -540,6 +540,7 @@ body {
   height: 25vh;
   margin: 10px;
   position: relative;
+  overflow: hidden;
  
 }
 .card img{
@@ -551,12 +552,14 @@ body {
   background-color: var(--blu);
   width: 100%;
   height: auto;
-  bottom: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 10px;
+  top:80%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 5px;
 }
 .about_project>span{
   width: 100%;
@@ -565,13 +568,11 @@ body {
   /* color: var(--blu); */
   font-size: 1.5vw;
   font-weight: bold;
+  margin-bottom: 10px;
 
 }
 .about_project_desc{
-   display: none;
-}
-.about_project_desc_active{
-  display: block;
+   display: block;
 }
 .buttons_project{
   height: auto;
