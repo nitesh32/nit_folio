@@ -177,6 +177,9 @@ body {
   
 }
 
+/* @media only screen and (max-width: 1024px) {
+  todo
+} */
 
 /* Home component */
 #Layout {
@@ -200,7 +203,7 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid grey;
   transition: 1s all ease;
 }
 /* home page  */
@@ -618,4 +621,97 @@ body {
 #main_contact{
   height: 90%;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+/* css for contact section  */
+#form_i_touch{
+  height: 60%;
+  width: 80%;
+  /* border: 1px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#form_i_touch h2{
+  font-weight: bold;
+}
+.name_email{
+  height: 50px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px;
+
+}
+.inp_cont{
+  outline: none;
+  border: none;
+  border-radius: 10px;
+
+}
+#name{
+  height:100%;
+  width: 48%;
+}
+#email{
+  height:100%;
+  width: 48%;
+
+}
+#subject{
+  height: 50px;
+  width: 70%;
+  margin: 4px;
+}
+#message{
+  height: 100px;
+  width: 70%;
+  margin-bottom: 8px;
+}
+
+#footer{
+  height: 40%;
+  width: 100%;
+  background-color: #003;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#inner_footer{
+  height: 80%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid white; */
+}
+.inner_footer_one{
+  width: 30%;
+  height: 90%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* border: 1px solid white; */
+}
+.inner_footer_one ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+
+}
+.inner_footer_one li{
+  cursor: pointer;
+  margin-bottom: 4px;
+}
+.inner_footer_one li:hover{
+  color: orange;
 }
