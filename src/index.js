@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { TypeH1 } from 'react-bootstrap-icons';
+// import { TypeH1 } from 'react-bootstrap-icons';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
