@@ -3,6 +3,7 @@ import Tilt from "react-parallax-tilt";
 import * as Icon from "react-bootstrap-icons";
 
 export default function Proj(props) {
+  // console.log("props: ", props);
     const funchere = (val)=>{
         const ele = document.getElementById(val);
         ele.style.transition=0.5+"s";
@@ -43,17 +44,18 @@ export default function Proj(props) {
             </a>
           </div>
 
-            <div className="project_link_btn">
+            {/* <div className="project_link_btn">
             <a
               href={props.git}
               target="_blank"
               rel="noreferrer"
             >
+            
               <span className="project_link_span">
                 Code <Icon.CodeSlash />
               </span>
             </a>
-          </div>
+          </div> */}
 
           </div>
 

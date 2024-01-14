@@ -6,13 +6,12 @@ import Layout from "./components/Layout";
 
 
 function App() {
-  
+  console.log("hub");
   return (
     <>
       <Bar></Bar>
       <Layout></Layout>
       <Particle></Particle>
-      
     </>
   );
 }

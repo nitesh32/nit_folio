@@ -10,7 +10,7 @@ export default function Projects() {
         &nbsp;My&nbsp;<strong>Projects</strong>
       </div>
       <div id="main_projects">
-        <Proj
+        {/* <Proj
           name="Benemart"
           photo="/assets/images/benemart_1.png"
           desc="It Is a Shopping Website Which Has Authentication, Database and Express Server ."
@@ -81,7 +81,9 @@ export default function Projects() {
           id="9"
           link="https://nitesh32.github.io/music_player//"
           git="https://github.com/nitesh32/music_player"
-        />
+        /> */}
+
+        proj
       </div>
     </div>
   );

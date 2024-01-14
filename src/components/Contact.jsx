@@ -38,7 +38,7 @@ export default function Contact() {
               <br></br>
               <span>Keep Growing ✨</span>
             </div>
-            <div class="inner_footer_one">
+            <div className="inner_footer_one">
               <h2>Quick Links</h2>
               <ul>
                 <li
@@ -81,7 +81,7 @@ export default function Contact() {
           
               </ul>
             </div>
-            <div class="inner_footer_one">
+            <div className="inner_footer_one">
               <h2>Contact Info</h2>
               <ul>
                 <li>
