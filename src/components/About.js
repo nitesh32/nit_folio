@@ -31,12 +31,8 @@ export default function About() {
             data-aos-easing="linear"
             data-aos-duration="1000"
           >
-            I am a Full-Stack developer currently in Chandigarh, Hariyana. I am
-            a Computer Science Engineering under graduate from Chandigarh
-            University. I am very passionate about improving my coding skills
-            &amp; developing applications &amp; websites. I build WebApps and
-            Websites using MERN Stack. I also have good competative programing
-            skills. I have solved 330+ problems on Codeforces.
+            
+I'm a Full-Stack developer based in Chandigarh, Haryana. A Computer Science Engineering graduate from Chandigarh University, I excel in MERN stack, having built dynamic web apps and solved 330+ problems on Codeforces. Passionate about continuous improvement, I actively contribute to open-source projects, seeking to expand my skills in a thriving tech community.
           </p>
 
           <div
@@ -70,7 +66,7 @@ export default function About() {
             data-aos-duration="1000"
           >
             <a
-              href="https://drive.google.com/file/d/1sz7QWupVOI9MGc8zQ2ZeCVWbZErq8Kgn/view?usp=sharing"
+              href="https://drive.google.com/drive/folders/1o5VL_j0mePm-ImO0U-HC5_W6z1fv66oF?q=sharedwith:public%20parent:1o5VL_j0mePm-ImO0U-HC5_W6z1fv66oF"
               className="btn"
               target="_blank"
               rel="noreferrer"
